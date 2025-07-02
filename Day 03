@@ -1,0 +1,43 @@
+Que:01(2 Jul 2025):(158 A)
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n, k, count = 0;
+    cin >> n >> k;
+    int arr[n];
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+        /* code */
+    }
+    for (int i = 0; i < n; i++)
+    {
+
+        if (arr[i] >= arr[k - 1] && arr[i] > 0)
+        {
+            count++;
+            /* code */
+        }
+        /* code */
+
+        /* code */
+    }
+    cout << count;
+    return 0;
+}
+
+Que:01(2 Jul 2025):(50 A)
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int m, n;
+    cin >> m >> n;
+    int num;
+    num = (m * n) / 2;
+    cout << num;
+    return 0;
+}
